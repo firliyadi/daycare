@@ -1,58 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-    
-<head>
-        <title>Daycare</title><meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="<?php echo base_url()?>assets/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="<?php echo base_url()?>assets/css/bootstrap-responsive.min.css" />
-		<link rel="stylesheet" href="<?php echo base_url()?>assets/css/matrix-login.css" />
-        <link rel="stylesheet" href="<?php echo base_url()?>assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-       
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+<html>
 
-    </head>
-    <body>
-        <div id="loginbox">            
-            <form id="loginform" class="form-vertical" action="index.html">
-				 <div class="control-group normal_text"> <h3><img src="<?php echo base_url()?>assets/img/logo.png" alt="Logo" /></h3></div>
-                <div class="control-group">
-                    <div class="controls">
-                        <div class="main_input_box">
-                            <span class="add-on bg_lg"><i class="icon-user"> </i></span><input type="text" placeholder="Username" />
-                        </div>
-                    </div>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INSPINIA | Login</title>
+
+    <link href="<?php echo base_url()?>assets/inspinia/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>assets/inspinia/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="<?php echo base_url()?>assets/inspinia/css/animate.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>assets/inspinia/css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <div>
+
+                <h1 class="logo-name">DC</h1>
+
+            </div>
+            <h3>Welcome to ALADIN9 DAYCARE</h3>
+            <p>Merupakan web info dan servis daycare di indonesia.
+                <!--Continually expanded and constantly improved Inspinia Admin Them (IN+)-->
+            </p>
+            <p>Silahkan Login.</p>
+            <form class="m-t" role="form" action="index.html">
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Username" required="">
                 </div>
-                <div class="control-group">
-                    <div class="controls">
-                        <div class="main_input_box">
-                            <span class="add-on bg_ly"><i class="icon-lock"></i></span><input type="password" placeholder="Password" name="pssws" />
-                        </div>
-                    </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" required="">
                 </div>
-                <div class="form-actions">
-                    <span class="pull-left"><a href="#" class="flip-link btn btn-info" id="to-recover">Lost password?</a></span>
-                    <span class="pull-right"><a type="submit" href="index.html" class="btn btn-success" /> Login</a></span>
-                </div>
+                <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
+
+                <a href="#"><small>Forgot password?</small></a>
+                <p class="text-muted text-center"><small>Do not have an account?</small></p>
+                <a class="btn btn-sm btn-white btn-block" href="register.html">Create an account</a>
             </form>
-            <form id="recoverform" action="#" class="form-vertical">
-				<p class="normal_text">Enter your e-mail address below and we will send you instructions how to recover a password.</p>
-				
-                    <div class="controls">
-                        <div class="main_input_box">
-                            <span class="add-on bg_lo"><i class="icon-envelope"></i></span><input type="text" placeholder="E-mail address" />
-                        </div>
-                    </div>
-               
-                <div class="form-actions">
-                    <span class="pull-left"><a href="#" class="flip-link btn btn-success" id="to-login">&laquo; Back to login</a></span>
-                    <span class="pull-right"><a class="btn btn-info"/>Reecover</a></span>
-                </div>
-            </form>
+            <p class="m-t"> <small>Created by ALADIN9 DAYCARE &copy; <?php echo date("Y") ?></small> </p>
         </div>
-        
-        <script src="<?php echo base_url()?>assets/js/jquery.min.js"></script>  
-        <script src="<?php echo base_url()?>assets/js/matrix.login.js"></script> 
-    </body>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="<?php echo base_url()?>assets/inspinia/js/jquery-3.1.1.min.js"></script>
+    <script src="<?php echo base_url()?>assets/inspinia/js/bootstrap.min.js"></script>
+
+</body>
 
 </html>
