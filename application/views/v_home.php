@@ -7,17 +7,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>INSPINIA - Landing Page</title>
+    <title>ALADIN9 DAYCARE</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>assets/inspinia/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Animation CSS -->
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>assets/inspinia/css/animate.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>assets/inspinia/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url()?>assets/inspinia/css/style.css" rel="stylesheet">
 </head>
 <body id="page-top" class="landing-page no-skin-config">
 <div class="navbar-wrapper">
@@ -30,7 +30,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">WEBAPPLAYERS</a>
+                    <a class="navbar-brand" href="index.html">ALADIN9 DAYCARE</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -40,6 +40,7 @@
                         <li><a class="page-scroll" href="#testimonials">Testimonials</a></li>
                         <li><a class="page-scroll" href="#pricing">Pricing</a></li>
                         <li><a class="page-scroll" href="#contact">Contact</a></li>
+                        <li><a class="page-scroll" href="<?php echo site_url('Login')?>">Login</a></li> 
                     </ul>
                 </div>
             </div>
@@ -54,18 +55,17 @@
         <div class="item active">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>We craft<br/>
-                        brands, web apps,<br/>
-                        and user interfaces<br/>
-                        we are IN+ studio</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                    <h1>Tips dan trik<br/>
+                        memilih Daycare yang baik,<br/>
+                        </h1>
+                    <p>Pastikan buah hati anda berada di daycare yang terbaik.</p>
                     <p>
                         <a class="btn btn-lg btn-primary" href="#" role="button">READ MORE</a>
-                        <a class="caption-link" href="#" role="button">Inspinia Theme</a>
+                       
                     </p>
                 </div>
                 <div class="carousel-image wow zoomIn">
-                    <img src="img/landing/laptop.png" alt="laptop"/>
+                    <img src="<?php echo base_url()?>assets/inspinia/img/landing/laptop.png" alt="laptop"/>
                 </div>
             </div>
             <!-- Set background for slide in css -->
@@ -75,9 +75,9 @@
         <div class="item">
             <div class="container">
                 <div class="carousel-caption blank">
-                    <h1>We create meaningful <br/> interfaces that inspire.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    <h1>Cari info Daycare.</h1>
+                    <p>Mencari info lengkap Daycare di sekitar tempat tinggal anda.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Cari</a></p>
                 </div>
             </div>
             <!-- Set background for slide in css -->
@@ -142,7 +142,7 @@
             </div>
         </div>
         <div class="col-md-6 text-center  wow zoomIn">
-            <img src="img/landing/perspective.png" alt="dashboard" class="img-responsive">
+            <img src="<?php echo base_url()?>assets/inspinia/img/landing/perspective.png" alt="dashboard" class="img-responsive">
         </div>
         <div class="col-md-3 text-center wow fadeInRight">
             <div>
@@ -172,7 +172,7 @@
             <a href="" class="btn btn-primary">Learn more</a>
         </div>
         <div class="col-lg-6 text-right wow fadeInRight">
-            <img src="img/landing/dashboard.png" alt="dashboard" class="img-responsive pull-right">
+            <img src="<?php echo base_url()?>assets/inspinia/img/landing/dashboard.png" alt="dashboard" class="img-responsive pull-right">
         </div>
     </div>
 </section>
@@ -189,7 +189,7 @@
         <div class="row">
             <div class="col-sm-4 wow fadeInLeft">
                 <div class="team-member">
-                    <img src="img/landing/avatar3.jpg" class="img-responsive img-circle img-small" alt="">
+                    <img src="<?php echo base_url()?>assets/inspinia/img/landing/avatar3.jpg" class="img-responsive img-circle img-small" alt="">
                     <h4><span class="navy">Amelia</span> Smith</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
                     <ul class="list-inline social-icon">
@@ -204,7 +204,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member wow zoomIn">
-                    <img src="img/landing/avatar1.jpg" class="img-responsive img-circle" alt="">
+                    <img src="<?php echo base_url()?>assets/inspinia/img/landing/avatar1.jpg" class="img-responsive img-circle" alt="">
                     <h4><span class="navy">John</span> Novak</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
                     <ul class="list-inline social-icon">
@@ -219,7 +219,7 @@
             </div>
             <div class="col-sm-4 wow fadeInRight">
                 <div class="team-member">
-                    <img src="img/landing/avatar2.jpg" class="img-responsive img-circle img-small" alt="">
+                    <img src="<?php echo base_url()?>assets/inspinia/img/landing/avatar2.jpg" class="img-responsive img-circle img-small" alt="">
                     <h4><span class="navy">Peter</span> Johnson</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
                     <ul class="list-inline social-icon">
@@ -258,7 +258,7 @@
                 <a href="" class="btn btn-primary">Learn more</a>
             </div>
             <div class="col-lg-6 text-right m-t-n-lg wow zoomIn">
-                <img src="img/landing/iphone.jpg" class="img-responsive" alt="dashboard">
+                <img src="<?php echo base_url()?>assets/inspinia/img/landing/iphone.jpg" class="img-responsive" alt="dashboard">
             </div>
             <div class="col-lg-3 features-text text-right wow fadeInRight">
                 <small>INSPINIA</small>
@@ -369,7 +369,7 @@
                 </div>
                 <div class="comments-avatar">
                     <a href="" class="pull-left">
-                        <img alt="image" src="img/landing/avatar3.jpg">
+                        <img alt="image" src="<?php echo base_url()?>assets/inspinia/img/landing/avatar3.jpg">
                     </a>
                     <div class="media-body">
                         <div class="commens-name">
@@ -386,7 +386,7 @@
                 </div>
                 <div class="comments-avatar">
                     <a href="" class="pull-left">
-                        <img alt="image" src="img/landing/avatar1.jpg">
+                        <img alt="image" src="<?php echo base_url()?>assets/inspinia/img/landing/avatar1.jpg">
                     </a>
                     <div class="media-body">
                         <div class="commens-name">
@@ -403,7 +403,7 @@
                 </div>
                 <div class="comments-avatar">
                     <a href="" class="pull-left">
-                        <img alt="image" src="img/landing/avatar2.jpg">
+                        <img alt="image" src="<?php echo base_url()?>assets/inspinia/img/landing/avatar2.jpg">
                     </a>
                     <div class="media-body">
                         <div class="commens-name">
@@ -628,15 +628,15 @@
 </section>
 
 <!-- Mainly scripts -->
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="<?php echo base_url()?>assets/inspinia/js/jquery-3.1.1.min.js"></script>
+<script src="<?php echo base_url()?>assets/inspinia/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url()?>assets/inspinia/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="<?php echo base_url()?>assets/inspinia/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
 <!-- Custom and plugin javascript -->
-<script src="js/inspinia.js"></script>
-<script src="js/plugins/pace/pace.min.js"></script>
-<script src="js/plugins/wow/wow.min.js"></script>
+<script src="<?php echo base_url()?>assets/inspinia/js/inspinia.js"></script>
+<script src="<?php echo base_url()?>assets/inspinia/js/plugins/pace/pace.min.js"></script>
+<script src="<?php echo base_url()?>assets/inspinia/js/plugins/wow/wow.min.js"></script>
 
 
 <script>
